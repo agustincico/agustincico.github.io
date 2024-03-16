@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/web-react-on-github-pages/static/css/main.c6eedd08.css",
+    "main.js": "/web-react-on-github-pages/static/js/main.ad70f19e.js",
+    "static/js/787.69a31ee7.chunk.js": "/web-react-on-github-pages/static/js/787.69a31ee7.chunk.js",
+    "static/media/Paper.A.Language.Preprint.pdf": "/web-react-on-github-pages/static/media/Paper.A.Language.Preprint.44af5c7086dd87e65d35.pdf",
+    "static/media/1.Diploma.jpg": "/web-react-on-github-pages/static/media/1.Diploma.5e345fb00cd8f1c958c6.jpg",
+    "static/media/3.5.Controlando el Robot.jpg": "/web-react-on-github-pages/static/media/3.5.Controlando el Robot.e074668aae19c3b2f4b9.jpg",
+    "static/media/3.2.1.Pensando el Robot.2.jpg": "/web-react-on-github-pages/static/media/3.2.1.Pensando el Robot.2.1343bcd9dbd97ae49e61.jpg",
+    "static/media/3.3.Robot al lado.jpg": "/web-react-on-github-pages/static/media/3.3.Robot al lado.0bb006014192ee9511a5.jpg",
+    "static/media/3.0.paseando por el 0+infinito.jpg": "/web-react-on-github-pages/static/media/3.0.paseando por el 0+infinito.17c91ca0a3a8b287ceea.jpg",
+    "static/media/3.6.Bug robot.jpg": "/web-react-on-github-pages/static/media/3.6.Bug robot.4e7504c916eda6256d1b.jpg",
+    "static/media/Representacion-simbolica-y-materialismo-dialectico.pdf": "/web-react-on-github-pages/static/media/Representacion-simbolica-y-materialismo-dialectico.0ebf334180453194f82e.pdf",
+    "static/media/Integración_del_conocimiento_cientifico_y_materialismo_dialectico.pdf": "/web-react-on-github-pages/static/media/Integración_del_conocimiento_cientifico_y_materialismo_dialectico.2399cbf208f3d4edf6a7.pdf",
+    "static/media/pastel_crayon.ttf": "/web-react-on-github-pages/static/media/pastel_crayon.f9672ff268069c546a19.ttf",
+    "static/media/fondo-textura-carton-blanca.jpg": "/web-react-on-github-pages/static/media/fondo-textura-carton-blanca.9d1922477125c146435d.jpg",
+    "index.html": "/web-react-on-github-pages/index.html",
+    "main.c6eedd08.css.map": "/web-react-on-github-pages/static/css/main.c6eedd08.css.map",
+    "main.ad70f19e.js.map": "/web-react-on-github-pages/static/js/main.ad70f19e.js.map",
+    "787.69a31ee7.chunk.js.map": "/web-react-on-github-pages/static/js/787.69a31ee7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6eedd08.css",
+    "static/js/main.ad70f19e.js"
+  ]
+}
