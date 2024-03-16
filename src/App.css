@@ -1,0 +1,73 @@
+
+@media (orientation: landscape) {
+
+  .App {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("./assets/images/fondo-textura-carton-blanca.jpg");
+    background-color: var(--orange);
+    background-blend-mode: multiply;
+    background-repeat: repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100vw;
+  }
+
+  .Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    min-height: 100vh;
+    background-image: url("./assets/images/fondo-textura-carton-blanca.jpg");
+    background-color: var(--unsaturated-orange);
+    background-blend-mode: multiply;
+    background-repeat: repeat;
+  }
+
+  .Text {
+    font-family: "Pastel Crayon";
+  }
+}
+
+@media (orientation: portrait) {
+
+  .App {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("./assets/images/fondo-textura-carton-blanca.jpg");
+    background-color: var(--orange);
+    background-blend-mode: multiply;
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100vw;
+  }
+
+  .Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: space-around;
+    width: 95vw;
+    min-height: 100vh;
+    background-image: url("./assets/images/fondo-textura-carton-blanca.jpg");
+    background-color: var(--unsaturated-orange);
+    background-blend-mode: multiply;
+    background-repeat: repeat;
+  }
+
+  .Text {
+    font-family: "Pastel Crayon";
+  }
+}

@@ -1,0 +1,13 @@
+:root {
+  --white: #fff;
+  --unsaturated-orange: rgb(255, 225, 148);
+  --orange: rgb(245, 162, 47);
+  --cream: rgb(246, 199, 138, 0.7);
+  --dark-orange: rgb(180, 119, 32);
+  
+}
+
+@font-face {
+  font-family: 'Pastel Crayon';
+  src: local('Pastel Crayon'), url(./assets/fonts/pastel_crayon.ttf) format('truetype');
+}

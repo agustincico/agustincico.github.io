@@ -1,0 +1,233 @@
+:root {
+    --TryOnlineButton: var(--orange);
+    --DownloadButton: var(--orange);
+    --MiddleButton: var(--orange);
+    --TinyButton: var(--orange);
+    --Separator: var(--orange);
+    --BorderColor: var(--dark-orange);
+}
+
+@media (orientation: landscape) {
+
+    .CartonButton {
+        background-image: url("./assets/images/fondo-textura-carton-blanca.jpg");
+        background-blend-mode: multiply;
+        border-radius: 20px 20px 20px 20px;
+        border-width: 0;
+        border-bottom-width: 1vh;
+        border-color: var(--BorderColor);
+        /* color: var(--white);         */
+      }
+
+    .Header {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+    .MainTitle {
+        font-size: 10vw;
+        /* color: var(--white); */
+      }
+    
+    .Introduction {
+        font-size: 2vw;
+        width: 65%;
+        text-align: center;
+        /* color: var(--white); */
+      }
+
+    .RowContainer1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 100%;
+      }
+
+    .RowContainer2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 30vh;
+        width: 100%;
+      }
+    
+    .ColumnContainer {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        align-items: stretch;
+        justify-content: space-around;
+      }
+
+    .TryOnlineButton {
+        background-color: var(--TryOnlineButton);
+        font-size: 4vw;
+        width: 35%;
+        height: 25vh;
+        margin-right: 1vw;
+    }
+
+    .DownloadButton {
+        background-color: var(--DownloadButton);        
+        font-size: 3vw;
+        width: 35%;
+        height: 25vh;
+        margin-left: 1vw;
+
+    }
+
+    .TinyButton {
+        background-color: var(--TinyButton);
+        font-size: 2vw;
+        padding: 10px 10px 10px 10px;
+        margin-left: 5;
+        margin-right: 5;
+      }
+  
+    .MiddleButton {
+        background-color: var(--MiddleButton);
+        font-size: 2.5vw;
+        height: 20vh;
+        width: 40%;
+        margin-left: 5;
+        margin-right: 5;
+      }
+
+    .Separator {
+        font-size: 3vw;
+        /* color: #ffffff; */
+        width: 5vw;
+        height: 5vw;
+        background-image: url(
+            "./assets/images/fondo-textura-carton-blanca.jpg"
+        );
+        background-color: var(--Separator);
+        background-blend-mode: multiply;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px 20px 20px 20px;
+        padding-top: 0.5vw;
+    } 
+
+}
+
+@media (orientation: portrait) {
+
+    .CartonButton {
+        background-image: url("./assets/images/fondo-textura-carton-blanca.jpg");
+        background-blend-mode: multiply;
+        border-radius: 20px 20px 20px 20px;
+        border-width: 0;
+        border-bottom-width: 1vh;
+        border-color: var(--BorderColor);
+        /* color: var(--white);         */
+      }
+
+    .Header {
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+    .MainTitle {
+        font-size: 15vw;
+        /* color: var(--white); */
+      }
+    
+    .Introduction {
+        font-size: 5vw;
+        width: 75%;
+        text-align: center;
+
+        /* color: var(--white); */
+      }
+
+    .RowContainer1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        width: 100%;
+      }
+
+    .RowContainer2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 25vh;
+        width: 100%;
+      }
+    
+    .ColumnContainer {
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        align-items: stretch;
+        justify-content: space-around;
+      }
+
+    .TryOnlineButton {
+        background-color: var(--TryOnlineButton);
+        font-size: 8vw;
+        width: 40%;
+        height: 20vh;
+        margin-right: 1vw;        
+    }
+
+    .DownloadButton {
+        background-color: var(--DownloadButton);        
+        font-size: 5vw;
+        width: 40%;
+        height: 20vh;
+        margin-left: 1vw;
+
+    }
+
+    .TinyButton {
+        font-size: 2vw;
+        padding: 10px 10px 10px 10px;
+        margin-left: 5;
+        margin-right: 5;
+      }
+  
+    .MiddleButton {
+        background-color: var(--MiddleButton);
+        font-size: 5.5vw;
+        height: 20vh;
+        width: 70%;
+        margin-left: 5;
+        margin-right: 5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .Separator {
+        font-size: 4vw;
+        /* color: #ffffff; */
+        width: 7vw;
+        height: 7vw;
+        background-image: url(
+            "./assets/images/fondo-textura-carton-blanca.jpg"
+        );
+        background-color: var(--Separator);
+        background-blend-mode: multiply;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px 20px 20px 20px;
+        padding-top: 0.5vw;
+    } 
+
+}
