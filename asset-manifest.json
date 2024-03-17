@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5e80905f.css",
-    "main.js": "/static/js/main.ea7f89de.js",
-    "static/js/787.bc1d0773.chunk.js": "/static/js/787.bc1d0773.chunk.js",
+    "main.js": "/static/js/main.24e27b18.js",
+    "static/js/787.dd84d75c.chunk.js": "/static/js/787.dd84d75c.chunk.js",
     "static/media/Paper.A.Language.Preprint.pdf": "/static/media/Paper.A.Language.Preprint.44af5c7086dd87e65d35.pdf",
     "static/media/1.Diploma.jpg": "/static/media/1.Diploma.5e345fb00cd8f1c958c6.jpg",
     "static/media/3.5.Controlando el Robot.jpg": "/static/media/3.5.Controlando el Robot.e074668aae19c3b2f4b9.jpg",
@@ -16,11 +16,11 @@
     "static/media/fondo-textura-carton-blanca.jpg": "/static/media/fondo-textura-carton-blanca.9d1922477125c146435d.jpg",
     "index.html": "/index.html",
     "main.5e80905f.css.map": "/static/css/main.5e80905f.css.map",
-    "main.ea7f89de.js.map": "/static/js/main.ea7f89de.js.map",
-    "787.bc1d0773.chunk.js.map": "/static/js/787.bc1d0773.chunk.js.map"
+    "main.24e27b18.js.map": "/static/js/main.24e27b18.js.map",
+    "787.dd84d75c.chunk.js.map": "/static/js/787.dd84d75c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e80905f.css",
-    "static/js/main.ea7f89de.js"
+    "static/js/main.24e27b18.js"
   ]
 }
