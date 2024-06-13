@@ -4,6 +4,7 @@ import homeStyles from "./Home.module.css";
 import "./style.css";
 import React from "react";
 import Button from "./components/Button";
+import Footer from "./components/Footer";
 import { useNavigate } from "react-router-dom";
 
 const imageSmalltalkPath = "public/imagenSmalltalk/Representar.image";
@@ -103,6 +104,7 @@ function Home() {
           </Button>
         </div> */}
       </div>
+      <Footer></Footer>
     </>
   );
 }

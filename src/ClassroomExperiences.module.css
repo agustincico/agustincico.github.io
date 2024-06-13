@@ -24,6 +24,11 @@
         width: 80%;
         text-align: left;
     }
+
+    .Centered {
+        font-size: 2vw;
+        text-align: center;
+    }
     
 }
 
