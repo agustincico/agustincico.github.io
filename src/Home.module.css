@@ -64,22 +64,21 @@
         align-items: stretch;
         justify-content: space-around;
       }
-
-    .TryOnlineButton {
+    
+    .TecnoLiteraturaButton {
         background-color: var(--TryOnlineButton);
-        font-size: 4vw;
+        font-size: 2.5vw;
         width: 35%;
         height: 25vh;
         margin-right: 1vw;
     }
-
-    .DownloadButton {
-        background-color: var(--DownloadButton);        
-        font-size: 3vw;
+    
+    .TryOnlineButton {
+        background-color: var(--TryOnlineButton);
+        font-size: 2.5vw;
         width: 35%;
         height: 25vh;
         margin-left: 1vw;
-
     }
 
     .TinyButton {

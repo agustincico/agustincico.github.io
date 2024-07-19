@@ -23,6 +23,17 @@ function Home() {
       </div>
       <div className={homeStyles.RowContainer1}>
         <Button
+          className={`Text ${homeStyles.CartonButton} ${homeStyles.TecnoLiteraturaButton}`}
+          onClick={() => {
+            window.location.href =
+              "https://squeak.js.org/run/#image=https://raw.githubusercontent.com/agustincico/agustincico.github.io/master/" +
+              imageSmalltalkPath;
+          }}
+        >
+          Tecno-literatura <br /> (poemas ejecutables)
+        </Button>
+        <text className={`Text ${homeStyles.Separator}`}>O</text>
+        <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
           onClick={() => {
             window.location.href =
@@ -30,11 +41,12 @@ function Home() {
               imageSmalltalkPath;
           }}
         >
-          Probalo online
+          Programación con dibujos <br /> (un ejemplo)
         </Button>
-        <text className={`Text ${homeStyles.Separator}`}>O</text>
+      </div>
+      <div className={homeStyles.RowContainer2}>
         <Button
-          className={`Text ${homeStyles.CartonButton} ${homeStyles.DownloadButton}`}
+          className={`Text ${homeStyles.CartonButton} ${homeStyles.MiddleButton}`}
           onClick={() => {
             const link = document.createElement("a");
             link.href =
