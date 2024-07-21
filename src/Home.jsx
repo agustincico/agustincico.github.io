@@ -33,7 +33,7 @@ function Home() {
         >
           Tecno-literatura <br /> (poemas ejecutables)
         </Button>
-        <text className={`Text ${homeStyles.Separator}`}>O</text>
+        <p className={`Text ${homeStyles.Separator}`}>O</p>
         <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
           onClick={() => {
