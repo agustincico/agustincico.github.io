@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0781afd3.css",
+    "main.css": "/static/css/main.2f632d80.css",
     "main.js": "/static/js/main.9852ad8a.js",
     "static/js/787.dd84d75c.chunk.js": "/static/js/787.dd84d75c.chunk.js",
     "static/media/Paper.A.Language.Preprint.pdf": "/static/media/Paper.A.Language.Preprint.44af5c7086dd87e65d35.pdf",
@@ -16,12 +16,12 @@
     "static/media/fondo-textura-carton-blanca.jpg": "/static/media/fondo-textura-carton-blanca.9d1922477125c146435d.jpg",
     "static/media/logo.mecenazgo.negro.png": "/static/media/logo.mecenazgo.negro.f4e07edc6cea1dbe6cbb.png",
     "index.html": "/index.html",
-    "main.0781afd3.css.map": "/static/css/main.0781afd3.css.map",
+    "main.2f632d80.css.map": "/static/css/main.2f632d80.css.map",
     "main.9852ad8a.js.map": "/static/js/main.9852ad8a.js.map",
     "787.dd84d75c.chunk.js.map": "/static/js/787.dd84d75c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0781afd3.css",
+    "static/css/main.2f632d80.css",
     "static/js/main.9852ad8a.js"
   ]
 }
