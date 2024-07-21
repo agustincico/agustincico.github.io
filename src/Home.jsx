@@ -7,7 +7,8 @@ import Button from "./components/Button";
 import Footer from "./components/Footer";
 import { useNavigate } from "react-router-dom";
 
-const imageSmalltalkPath = "public/imagenSmalltalk/Representar.image";
+const imageTecnoLiteraturaPath = "public/imagenSmalltalk/Tecnoliteratura.image";
+const imageDibujosPath = "public/imagenSmalltalk/Representar.image";
 
 function Home() {
   const navigate = useNavigate();
@@ -27,7 +28,7 @@ function Home() {
           onClick={() => {
             window.location.href =
               "https://squeak.js.org/run/#image=https://raw.githubusercontent.com/agustincico/agustincico.github.io/master/" +
-              imageSmalltalkPath;
+              imageTecnoLiteraturaPath;
           }}
         >
           Tecno-literatura <br /> (poemas ejecutables)
@@ -38,7 +39,7 @@ function Home() {
           onClick={() => {
             window.location.href =
               "https://squeak.js.org/run/#image=https://raw.githubusercontent.com/agustincico/agustincico.github.io/master/" +
-              imageSmalltalkPath;
+              imageDibujosPath;
           }}
         >
           Programación con dibujos <br /> (un ejemplo)
