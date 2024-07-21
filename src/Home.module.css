@@ -143,7 +143,7 @@
       }
     
     .Introduction {
-        font-size: 5vw;
+        font-size: 4vw;
         width: 75%;
         text-align: center;
 
@@ -176,21 +176,21 @@
         justify-content: space-around;
       }
 
+    .TecnoLiteraturaButton {
+        background-color: var(--TryOnlineButton);
+        font-size: 4vw;
+        width: 40%;
+        height: 20vh;
+        margin-right: 1vw;
+    }
+    
+
     .TryOnlineButton {
         background-color: var(--TryOnlineButton);
-        font-size: 8vw;
+        font-size: 4vw;
         width: 40%;
         height: 20vh;
-        margin-right: 1vw;        
-    }
-
-    .DownloadButton {
-        background-color: var(--DownloadButton);        
-        font-size: 5vw;
-        width: 40%;
-        height: 20vh;
-        margin-left: 1vw;
-
+        margin-left: 1vw;        
     }
 
     .TinyButton {
