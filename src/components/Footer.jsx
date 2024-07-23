@@ -8,11 +8,14 @@ export default function Footer(props) {
   return (
     <div>
       <p className={`Text ${CEStyles.Centered}`}>Este proyecto cuenta con apoyo de:</p>
+      <div style={{ display: "flex", justifyContent: "center" }}>
       <img
         src={logoMecenazgo}
-        style={{ width: "100%" }}
+        style={{ width: "70%"}}
         alt="Logo Mecenazgo"
       />
+      </div>
     </div>
+
   );
 }
