@@ -26,9 +26,9 @@ function Home() {
         <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TecnoLiteraturaButton}`}
           onClick={() => {
-            window.location.href =
-              "https://squeak.js.org/run/#image=https://raw.githubusercontent.com/agustincico/agustincico.github.io/master/" +
-              imageTecnoLiteraturaPath;
+            navigate("/tecno-literature", {
+              state: { image: imageTecnoLiteraturaPath },
+            });
           }}
         >
           Tecno-literatura <br /> (poemas ejecutables)
@@ -37,9 +37,9 @@ function Home() {
         <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
           onClick={() => {
-            window.location.href =
-              "https://squeak.js.org/run/#image=https://raw.githubusercontent.com/agustincico/agustincico.github.io/master/" +
-              imageDibujosPath;
+            navigate("/programming-with-drawings", {
+              state: { image: imageDibujosPath },
+            });
           }}
         >
           Programación con dibujos <br /> (un ejemplo)

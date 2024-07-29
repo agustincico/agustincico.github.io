@@ -8,6 +8,7 @@ import ClassroomExperiences from "./ClassroomExperiences";
 import NewsBlog from "./NewsBlog";
 import Tutorials from "./Tutorials";
 import ContactUs from "./ContactUs";
+import Playground from "./Playground";
 
 export default function App() {
   return (
@@ -23,6 +24,8 @@ export default function App() {
           <Route path="news-blog" element={<NewsBlog />} />
           <Route path="tutorials" element={<Tutorials />} />
           <Route path="contact-us" element={<ContactUs />} />
+          <Route path="tecno-literature" element={<Playground />} />
+          <Route path="programming-with-drawings" element={<Playground />} />
         </Routes>
       </div>
     </div>
