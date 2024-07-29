@@ -6,20 +6,23 @@ import React from "react";
 import Button from "./components/Button";
 import Footer from "./components/Footer";
 import { useNavigate } from "react-router-dom";
+import { useMessages } from "./components/MessageContext";
 
 const imageTecnoLiteraturaPath = "public/imagenSmalltalk/Tecnoliteratura.image";
 const imageDibujosPath = "public/imagenSmalltalk/Representar.image";
 
 function Home() {
   const navigate = useNavigate();
+  const { messages } = useMessages();
 
   return (
     <>
       <div className={homeStyles.Header}>
-        <div className={`Text ${homeStyles.MainTitle}`}>Representar</div>
+        <div className={`Text ${homeStyles.MainTitle}`}>
+          {messages.homePage.title}
+        </div>
         <div className={`Text ${homeStyles.Introduction}`}>
-          Un lenguaje de programación para fortalecer la visión de la
-          programación como construcción de representaciones
+          {messages.homePage.introduction}
         </div>
       </div>
       <div className={homeStyles.RowContainer1}>

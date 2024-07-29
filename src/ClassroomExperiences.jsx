@@ -6,6 +6,7 @@ import homeStyles from "./Home.module.css";
 import React from "react";
 import Button from "./components/Button";
 import { useNavigate } from "react-router-dom";
+import { useMessages } from "./components/MessageContext";
 import ceroMasInfinitoImage from "./assets/images/classroom-experiences/3.0.paseando por el 0+infinito.jpg";
 import pensandoRobot from "./assets/images/classroom-experiences/3.2.1.Pensando el Robot.2.jpg";
 import robotAlLado from "./assets/images/classroom-experiences/3.3.Robot al lado.jpg";
@@ -15,6 +16,7 @@ import diploma from "./assets/images/classroom-experiences/1.Diploma.jpg";
 
 function ClassroomExperiences() {
   const navigate = useNavigate();
+  const { messages } = useMessages();
   return (
     <>
       <div className={CEStyles.Header}>
