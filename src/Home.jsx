@@ -34,9 +34,11 @@ function Home() {
             });
           }}
         >
-          Tecno-literatura <br /> (poemas ejecutables)
+          {messages.homePage.tecnoLiteraturaButtonLabel}
         </Button>
-        <p className={`Text ${homeStyles.Separator}`}>O</p>
+        <p className={`Text ${homeStyles.Separator}`}>
+          {messages.homePage.inbetweenButtonLabel}
+        </p>
         <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
           onClick={() => {
@@ -45,7 +47,7 @@ function Home() {
             });
           }}
         >
-          Programación con dibujos <br /> (un ejemplo)
+          {messages.homePage.drawingsProgrammingButtonLabel}
         </Button>
       </div>
       <div className={homeStyles.RowContainer2}>
@@ -59,7 +61,7 @@ function Home() {
             link.click();
           }}
         >
-          Descargá la versión completa
+          {messages.homePage.downloadButtonLabel}
         </Button>
       </div>
       <div className={homeStyles.RowContainer2}>
@@ -93,7 +95,7 @@ function Home() {
             navigate("/classroom-experiences");
           }}
         >
-          Conocé sobre nuestra experiencia en un aula
+          {messages.homePage.classroomExperiencesButtonLabel}
         </Button>
         {/* <div className="ColumnContainer">
           <Button

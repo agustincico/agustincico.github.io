@@ -6,7 +6,7 @@ const MessagesContext = createContext({});
 
 export const MessagesProvider = ({ children }) => {
   const browserLanguage = navigator.language;
-  const initialLocale = translations[browserLanguage] ? browserLanguage : "es";
+  const initialLocale = translations[browserLanguage] ? browserLanguage : "en";
   console.log("browserLanguage: ", browserLanguage);
   const [locale, setLocale] = useState(initialLocale);
   const messages = translations[locale];

@@ -27,18 +27,17 @@ function ClassroomExperiences() {
           }}
           style={{ marginLeft: "1vw", marginTop: "1vh" }}
         >
-          Inicio
+          {messages.classroomExperiencesPage.homeButtonLabel}
         </Button>
       </div>
-      <div className={`Text ${CEStyles.MainTitle}`}>Experiencias en aula</div>
+      <div className={`Text ${CEStyles.MainTitle}`}>
+        {messages.classroomExperiencesPage.title}
+      </div>
       <p className={`Text ${CEStyles.Description}`}>
-        Este proyecto fue puesto a prueba en una experiencia didáctica realizada
-        en la Facultad de Ciencias Exactas y Naturales de la UBA.
+        {messages.classroomExperiencesPage.description}
       </p>
       <h2 className={`Text ${CEStyles.Subtitle}`}>
-        En el verano de 2023 se ofreció a la comunidad un taller de
-        “Programación con Dibujos” donde participaron niñas y niños de 6to y 7mo
-        grado:
+        {messages.classroomExperiencesPage.subtitle}
       </h2>
       <img
         src={ceroMasInfinitoImage}
@@ -46,10 +45,7 @@ function ClassroomExperiences() {
         alt="Niños y niñas recorriendo el pabellón Cero más Infinito"
       />
       <p className={`Text ${CEStyles.Description}`}>
-        Fueron 3 clases. En la primera representaron fenómenos naturales, como
-        la germinación de una semilla. En la segunda se trabajó con un simulador
-        de robot. En la tercera clase se representaron los números naturales y
-        la operación de la suma.
+        {messages.classroomExperiencesPage.paragraph1}
       </p>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img
@@ -64,9 +60,7 @@ function ClassroomExperiences() {
         />
       </div>
       <p className={`Text ${CEStyles.Description}`}>
-        La versión que se utilizó en este taller contenía un simulador de robot.
-        Esto inspiró la actual versión que permite realizar simulaciones de tema
-        libre.
+        {messages.classroomExperiencesPage.paragraph2}
       </p>
       <img
         src={controlandoRobot}
@@ -74,10 +68,7 @@ function ClassroomExperiences() {
         alt="Dos niños viendo el simulador de un robot en una computadora"
       />
       <p className={`Text ${CEStyles.Description}`}>
-        Además de definir el programa en forma visual por medio de dibujos, es
-        posible visualizar la ejecución del programa, lo que se conoce como
-        ‘debuggear’. Esto permite analizar en forma más clara el funcionamiento
-        del programa, para luego modificarlo.
+        {messages.classroomExperiencesPage.paragraph3}
       </p>
       <img
         src={bugRobot}
@@ -85,8 +76,7 @@ function ClassroomExperiences() {
         alt="Niños y niñas escuchan atentamente una explicación del docente"
       />
       <p className={`Text ${CEStyles.Description}`}>
-        El taller finalizó con la entrega de diplomas. Fue un aprendizaje tanto
-        para los chicos como para quienes hacemos este proyecto.
+        {messages.classroomExperiencesPage.paragraph4}
       </p>
       <img
         src={diploma}
@@ -94,9 +84,7 @@ function ClassroomExperiences() {
         alt="Foto grupal con los niños y niñas participantes sosteniendo un diploma que certifica su participación en el taller"
       />
       <p className={`Text ${CEStyles.Description}`}>
-        Gracias a los todos los niños y niñas participantes. Estarán siempre en
-        el recuerdo como los primeros en poner a prueba este nuevo enfoque de la
-        programación.
+        {messages.classroomExperiencesPage.paragraph5}
       </p>
     </>
   );
