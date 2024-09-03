@@ -56,7 +56,7 @@ function Home() {
           onClick={() => {
             const link = document.createElement("a");
             link.href =
-              "imagenSmalltalk/Representar Multiplataforma 12-3-2024.zip";
+              "imagenSmalltalk/Representar Multiplataforma 30-8-2024.zip";
             link.download = "Representar.zip";
             link.click();
           }}
