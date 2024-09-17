@@ -28,8 +28,8 @@ export default function Footer(props) {
         </Link>
       </div>
       <p className={`Text ${CEStyles.ContactText}`}>
-        Si tenés preguntas sobre cómo usar la herramienta, si querés que tu
-        institución sea sponsor del proyecto, no dejes de escribirnos:
+        Si tenés preguntas sobre cómo usar la herramienta o querés que tu
+        institución apoye el proyecto, no dejes de escribirnos:
       </p>
       <p className={`Text ${CEStyles.EmailText}`}>info@represent.ar</p>
       <p className={`Text ${CEStyles.ContactText}`}>
