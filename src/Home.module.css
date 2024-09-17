@@ -92,7 +92,7 @@
     .MiddleButton {
         background-color: var(--MiddleButton);
         font-size: 2.5vw;
-        height: 20vh;
+        height: 25vh;
         width: 40%;
         margin-left: 5;
         margin-right: 5;
@@ -204,7 +204,7 @@
     .MiddleButton {
         background-color: var(--MiddleButton);
         font-size: 5.5vw;
-        height: 20vh;
+        height: 25vh;
         width: 70%;
         margin-left: 5;
         margin-right: 5;

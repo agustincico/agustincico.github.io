@@ -9,7 +9,10 @@ import { useNavigate } from "react-router-dom";
 import { useMessages } from "./components/MessageContext";
 
 const imageTecnoLiteraturaPath = "public/imagenSmalltalk/Tecnoliteratura.image";
-const imageDibujosPath = "public/imagenSmalltalk/Representar.image";
+const imageDibujosPath =
+  "public/imagenSmalltalk/online&files=[RepresentarOnline.image,KingFrogSample/projectToLoad.represent.ar]&forceDownload=true";
+const imageDibujosEmptyPath =
+  "public/imagenSmalltalk/online&files=[RepresentarOnline.image,EmptySample/projectToLoad.represent.ar]&forceDownload=true";
 
 function Home() {
   const navigate = useNavigate();
@@ -39,6 +42,18 @@ function Home() {
         <p className={`Text ${homeStyles.Separator}`}>
           {messages.homePage.inbetweenButtonLabel}
         </p>
+        <Button
+          className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
+          onClick={() => {
+            navigate("/programming-with-drawings-example", {
+              state: { image: imageDibujosPath },
+            });
+          }}
+        >
+          {messages.homePage.drawingsProgrammingExampleButtonLabel}
+        </Button>
+      </div>
+      <div className={homeStyles.RowContainer2}>
         <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
           onClick={() => {

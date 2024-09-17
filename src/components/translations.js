@@ -5,13 +5,15 @@ const translations = {
       introduction:
         "A programming language in witch you draw to represent what you imagine",
       tecnoLiteraturaButtonLabel: "Tecno-literature (executable poems)",
-      drawingsProgrammingButtonLabel: "Programming with drawings (an example)",
-      downloadButtonLabel: "Download the complete version",
+      drawingsProgrammingButtonLabel: "Try out online version (limited)",
+      drawingsProgrammingExampleButtonLabel:
+        "Programming with drawings (an example)",
+      downloadButtonLabel: "Download the full version (includes many examples)",
       classroomExperiencesButtonLabel: "Learn about our classroom experience",
       inbetweenButtonLabel: "Or",
     },
     footer: {
-      title: "This project is supported by:",
+      title: "This project received support from:",
     },
     classroomExperiencesPage: {
       homeButtonLabel: "Home",
@@ -38,14 +40,17 @@ const translations = {
       introduction:
         "Un lenguaje de programación por medio de dibujos para que puedas representar lo que imaginás",
       tecnoLiteraturaButtonLabel: "Tecno-literatura (poemas ejecutables)",
-      drawingsProgrammingButtonLabel: "Programación con dibujos (un ejemplo)",
-      downloadButtonLabel: "Descargar la versión completa",
+      drawingsProgrammingButtonLabel: "Probar versión online (limitada)",
+      drawingsProgrammingExampleButtonLabel:
+        "Programación con dibujos (un ejemplo)",
+      downloadButtonLabel:
+        "Descargar la versión completa (incluye muchos ejemplos)",
       classroomExperiencesButtonLabel:
         "Conocé sobre nuestra experiencia en el aula",
       inbetweenButtonLabel: "O",
     },
     footer: {
-      title: "Este proyecto cuenta con el apoyo de:",
+      title: "Este proyecto recibió apoyo de:",
     },
     classroomExperiencesPage: {
       homeButtonLabel: "Inicio",

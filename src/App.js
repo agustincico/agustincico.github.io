@@ -27,6 +27,10 @@ export default function App() {
             <Route path="tutorials" element={<Tutorials />} />
             <Route path="contact-us" element={<ContactUs />} />
             <Route path="tecno-literature" element={<Playground />} />
+            <Route
+              path="programming-with-drawings-example"
+              element={<Playground />}
+            />
             <Route path="programming-with-drawings" element={<Playground />} />
           </Routes>
         </div>
