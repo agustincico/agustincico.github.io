@@ -27,6 +27,34 @@
 
     .Centered {
         font-size: 2vw;
+        width: 80%;
+        text-align: center;
+    }
+
+    .EmailText {
+        font-size: 2vw;
+        text-align: center;
+        text-decoration: underline;        
+    }
+
+    .EmailGoogleGroupText {
+        font-size: 2vw;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .ContactTitle {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 3vw;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .ContactText {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 2vw;        
         text-align: center;
     }
     
@@ -60,6 +88,34 @@
     }
 
     .Centered {
+        font-size: 5vw;
+        width: 90%;
+        text-align: center;
+    }
+
+    .EmailText {
+        font-size: 5vw;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .EmailGoogleGroupText {
+        font-size: 3.5vw;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .ContactTitle {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-size: 5vw;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .ContactText {
+        padding-left: 1vw;
+        padding-right: 1vw;
         font-size: 5vw;
         text-align: center;
     }

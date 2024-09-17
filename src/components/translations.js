@@ -7,7 +7,7 @@ const translations = {
       tecnoLiteraturaButtonLabel: "Tecno-literature (executable poems)",
       drawingsProgrammingButtonLabel: "Try out online version (limited)",
       drawingsProgrammingExampleButtonLabel:
-        "Programming with drawings (an example)",
+        "Try out online version with an example",
       downloadButtonLabel: "Download the full version (includes many examples)",
       classroomExperiencesButtonLabel: "Learn about our classroom experience",
       inbetweenButtonLabel: "Or",
@@ -42,7 +42,7 @@ const translations = {
       tecnoLiteraturaButtonLabel: "Tecno-literatura (poemas ejecutables)",
       drawingsProgrammingButtonLabel: "Probar versión online (limitada)",
       drawingsProgrammingExampleButtonLabel:
-        "Programación con dibujos (un ejemplo)",
+        "Probar versión online con ejemplo",
       downloadButtonLabel:
         "Descargar la versión completa (incluye muchos ejemplos)",
       classroomExperiencesButtonLabel:

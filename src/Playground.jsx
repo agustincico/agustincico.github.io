@@ -11,7 +11,7 @@ function Playground() {
   const location = useLocation();
   const { image } = location.state || {};
   const targetLink =
-    "https://squeak.js.org/run/#image=https://raw.githubusercontent.com/agustincico/agustincico.github.io/master/" +
+    "https://squeak.js.org/run/#url=https://raw.githubusercontent.com/agustincico/agustincico.github.io/master/" +
     image;
 
   return (

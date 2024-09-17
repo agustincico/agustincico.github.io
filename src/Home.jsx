@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 import { useMessages } from "./components/MessageContext";
 
 const imageTecnoLiteraturaPath = "public/imagenSmalltalk/Tecnoliteratura.image";
-const imageDibujosPath =
+const imageDibujosWithExamplePath =
   "public/imagenSmalltalk/online&files=[RepresentarOnline.image,KingFrogSample/projectToLoad.represent.ar]&forceDownload=true";
 const imageDibujosEmptyPath =
   "public/imagenSmalltalk/online&files=[RepresentarOnline.image,EmptySample/projectToLoad.represent.ar]&forceDownload=true";
@@ -27,6 +27,31 @@ function Home() {
         <div className={`Text ${homeStyles.Introduction}`}>
           {messages.homePage.introduction}
         </div>
+      </div>
+      <div className={homeStyles.RowContainer2}>
+        <Button
+          className={`Text ${homeStyles.CartonButton} ${homeStyles.MiddleButton}`}
+          onClick={() => {
+            const link = document.createElement("a");
+            link.href = "imagenSmalltalk/RepresentarDesktop.zip"; //tocar aca cuando se actualiza la versión de descarga
+            link.download = "Representar.zip";
+            link.click();
+          }}
+        >
+          {messages.homePage.downloadButtonLabel}
+        </Button>
+      </div>
+      <div className={homeStyles.RowContainer2}>
+        <Button
+          className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
+          onClick={() => {
+            navigate("/programming-with-drawings", {
+              state: { image: imageDibujosEmptyPath },
+            });
+          }}
+        >
+          {messages.homePage.drawingsProgrammingButtonLabel}
+        </Button>
       </div>
       <div className={homeStyles.RowContainer1}>
         <Button
@@ -46,37 +71,11 @@ function Home() {
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
           onClick={() => {
             navigate("/programming-with-drawings-example", {
-              state: { image: imageDibujosPath },
+              state: { image: imageDibujosWithExamplePath },
             });
           }}
         >
           {messages.homePage.drawingsProgrammingExampleButtonLabel}
-        </Button>
-      </div>
-      <div className={homeStyles.RowContainer2}>
-        <Button
-          className={`Text ${homeStyles.CartonButton} ${homeStyles.TryOnlineButton}`}
-          onClick={() => {
-            navigate("/programming-with-drawings", {
-              state: { image: imageDibujosPath },
-            });
-          }}
-        >
-          {messages.homePage.drawingsProgrammingButtonLabel}
-        </Button>
-      </div>
-      <div className={homeStyles.RowContainer2}>
-        <Button
-          className={`Text ${homeStyles.CartonButton} ${homeStyles.MiddleButton}`}
-          onClick={() => {
-            const link = document.createElement("a");
-            link.href =
-              "imagenSmalltalk/Representar Multiplataforma 30-8-2024.zip";
-            link.download = "Representar.zip";
-            link.click();
-          }}
-        >
-          {messages.homePage.downloadButtonLabel}
         </Button>
       </div>
       <div className={homeStyles.RowContainer2}>
