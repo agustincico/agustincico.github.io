@@ -5,6 +5,7 @@ import CEStyles from "./ClassroomExperiences.module.css";
 import homeStyles from "./Home.module.css";
 import React from "react";
 import Button from "./components/Button";
+import Header from "./components/Header";
 import { useNavigate } from "react-router-dom";
 import { useMessages } from "./components/MessageContext";
 import ceroMasInfinitoImage from "./assets/images/classroom-experiences/3.0.paseando por el 0+infinito.jpg";
@@ -19,6 +20,7 @@ function ClassroomExperiences() {
   const { messages } = useMessages();
   return (
     <>
+      <Header></Header>
       <div className={CEStyles.Header}>
         <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TinyButton}`}

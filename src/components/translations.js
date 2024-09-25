@@ -8,12 +8,20 @@ const translations = {
       drawingsProgrammingButtonLabel: "Try out online version (limited)",
       drawingsProgrammingExampleButtonLabel:
         "Try out online version with an example",
-      downloadButtonLabel: "Download the full version (includes many examples)",
+      downloadButtonLabel: "Download the full version",
+      downloadButtonEpigraph: "(includes many examples)",
       classroomExperiencesButtonLabel: "Learn about our classroom experience",
       inbetweenButtonLabel: "Or",
+      manualFileName: "Representar - User Manual.pdf",
+      downloadManualButtonLabel: "Download user manual",
     },
     footer: {
-      title: "This project received support from:",
+      sponsorsTitle: "This project received support from:",
+      contactTitle: "Contact",
+      contactInfo:
+        "If you have questions about how to use the tool or want your institution to support the project, don't hesitate to write to us:",
+      communityInfo:
+        "If you want to be part of our community, share your projects and experiences, you can join our mailing list by writing to:",
     },
     classroomExperiencesPage: {
       homeButtonLabel: "Home",
@@ -43,14 +51,21 @@ const translations = {
       drawingsProgrammingButtonLabel: "Probar versión online (limitada)",
       drawingsProgrammingExampleButtonLabel:
         "Probar versión online con ejemplo",
-      downloadButtonLabel:
-        "Descargar la versión completa (incluye muchos ejemplos)",
+      downloadButtonLabel: "Descargar la versión completa",
+      downloadButtonEpigraph: "(incluye muchos ejemplos)",
       classroomExperiencesButtonLabel:
         "Conocé sobre nuestra experiencia en el aula",
       inbetweenButtonLabel: "O",
+      manualFileName: "Manual de Usuario - Representar.pdf",
+      downloadManualButtonLabel: "Descargar manual de usuario",
     },
     footer: {
-      title: "Este proyecto recibió apoyo de:",
+      sponsorsTitle: "Este proyecto recibió apoyo de:",
+      contactTitle: "Contacto",
+      contactInfo:
+        "Si tenés preguntas sobre cómo usar la herramienta o querés que tu institución apoye el proyecto, no dejes de escribirnos:",
+      communityInfo:
+        "Si querés ser parte de nuestra comunidad, compartir tus proyectos y experiencias, podés unirte a nuestra lista de mails escribiendo a:",
     },
     classroomExperiencesPage: {
       homeButtonLabel: "Inicio",

@@ -13,9 +13,9 @@ import Playground from "./Playground";
 
 export default function App() {
   return (
-    <MessagesProvider>
-      <div className="App">
-        <div className="Container">
+    <div className="App">
+      <div className="Container">
+        <MessagesProvider>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -33,8 +33,8 @@ export default function App() {
             />
             <Route path="programming-with-drawings" element={<Playground />} />
           </Routes>
-        </div>
+        </MessagesProvider>
       </div>
-    </MessagesProvider>
+    </div>
   );
 }

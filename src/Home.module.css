@@ -1,6 +1,8 @@
 :root {
     --TryOnlineButton: var(--orange);
-    --DownloadButton: var(--orange);
+    --DownloadButton: var(--pink-pastel);
+    --DownloadManualButton: var(--orange);
+    --ClassroomExperiencesButton: var(--orange);
     --MiddleButton: var(--orange);
     --TinyButton: var(--orange);
     --Separator: var(--orange);
@@ -19,8 +21,8 @@
         /* color: var(--white);         */
       }
 
-    .Header {
-        height: 40vh;
+    .TitleContainer {
+        height: 35vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -36,7 +38,12 @@
         font-size: 2vw;
         width: 65%;
         text-align: center;
-        /* color: var(--white); */
+      }
+
+    .Epigraph {
+        font-size: 1.5vw;
+        width: 65%;
+        text-align: center;
       }
 
     .RowContainer1 {
@@ -44,7 +51,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        height: 30vh;
+        height: 25vh;
         width: 100%;
       }
 
@@ -64,21 +71,24 @@
         align-items: stretch;
         justify-content: space-around;
       }
-    
+    .LeftMostButton {
+      margin-right: 1vw;
+    }
+    .RightMostButton {
+      margin-left: 1vw;
+    }
     .TecnoLiteraturaButton {
         background-color: var(--TryOnlineButton);
         font-size: 2.5vw;
         width: 35%;
         height: 25vh;
-        margin-right: 1vw;
     }
     
     .TryOnlineButton {
         background-color: var(--TryOnlineButton);
         font-size: 2.5vw;
         width: 35%;
-        height: 25vh;
-        margin-left: 1vw;
+        height: 20vh;
     }
 
     .TinyButton {
@@ -97,6 +107,24 @@
         margin-left: 5;
         margin-right: 5;
       }
+    
+    .DownloadManualButton {
+        background-color: var(--DownloadManualButton);
+        font-size: 2.5vw;
+        height: 20vh;
+        width: 35%;    
+    }
+
+    .ClassroomExperiencesButton {
+      background-color: var(--ClassroomExperiencesButton);
+      font-size: 2.5vw;
+      height: 20vh;
+      width: 35%;    
+  }
+    
+    .DownloadButton{
+      background-color: var(--DownloadButton);
+    }
 
     .Separator {
         font-size: 3vw;
@@ -129,8 +157,8 @@
         /* color: var(--white);         */
       }
 
-    .Header {
-        height: 35vh;
+    .TitleContainer {
+        height: 30vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -146,8 +174,12 @@
         font-size: 4vw;
         width: 75%;
         text-align: center;
+      }
 
-        /* color: var(--white); */
+    .Epigraph {
+        font-size: 3vw;
+        width: 75%;
+        text-align: center;
       }
 
     .RowContainer1 {
@@ -176,21 +208,27 @@
         justify-content: space-around;
       }
 
+    
+    .LeftMostButton {
+      margin-right: 1vw;
+    }
+    .RightMostButton {
+      margin-left: 1vw;
+    }
+
     .TecnoLiteraturaButton {
         background-color: var(--TryOnlineButton);
         font-size: 4vw;
         width: 40%;
         height: 20vh;
-        margin-right: 1vw;
     }
-    
+
 
     .TryOnlineButton {
         background-color: var(--TryOnlineButton);
         font-size: 4vw;
         width: 40%;
-        height: 20vh;
-        margin-left: 1vw;        
+        height: 20vh;     
     }
 
     .TinyButton {
@@ -212,6 +250,24 @@
         justify-content: center;
         align-items: center;
       }
+
+    .DownloadManualButton {
+        background-color: var(--DownloadManualButton);
+        font-size: 4vw;
+        width: 40%;
+        height: 20vh;    
+      }
+
+    .ClassroomExperiencesButton {
+      background-color: var(--ClassroomExperiencesButton);
+        font-size: 4vw;
+        width: 40%;
+        height: 20vh;     
+      }
+
+    .DownloadButton{
+      background-color: var(--DownloadButton);
+    }
 
     .Separator {
         font-size: 4vw;

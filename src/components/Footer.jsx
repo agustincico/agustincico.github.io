@@ -11,7 +11,9 @@ export default function Footer(props) {
   const { messages } = useMessages();
   return (
     <div>
-      <p className={`Text ${CEStyles.ContactTitle}`}>Contacto</p>
+      <p className={`Text ${CEStyles.ContactTitle}`}>
+        {messages.footer.contactTitle}
+      </p>
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <Link
           to="https://www.instagram.com/agurafamartinez/"
@@ -28,13 +30,11 @@ export default function Footer(props) {
         </Link>
       </div>
       <p className={`Text ${CEStyles.ContactText}`}>
-        Si tenés preguntas sobre cómo usar la herramienta o querés que tu
-        institución apoye el proyecto, no dejes de escribirnos:
+        {messages.footer.contactInfo}
       </p>
       <p className={`Text ${CEStyles.EmailText}`}>info@represent.ar</p>
       <p className={`Text ${CEStyles.ContactText}`}>
-        Si querés ser parte de nuestra comunidad, compartir tus proyectos y
-        experiencias, podés unirte a nuestra lista de mails escribiendo a:
+        {messages.footer.communityInfo}
       </p>
       <p className={`Text ${CEStyles.EmailGoogleGroupText}`}>
         representarCommunity+subscribe@googlegroups.com
