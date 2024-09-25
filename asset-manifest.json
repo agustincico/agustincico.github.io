@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0aab760.css",
-    "main.js": "/static/js/main.d05009f0.js",
+    "main.css": "/static/css/main.7243bbc2.css",
+    "main.js": "/static/js/main.a4c2e953.js",
     "static/js/787.dd84d75c.chunk.js": "/static/js/787.dd84d75c.chunk.js",
     "static/media/Paper.A.Language.Preprint.pdf": "/static/media/Paper.A.Language.Preprint.44af5c7086dd87e65d35.pdf",
+    "static/media/Manual.Representar.español.pdf": "/static/media/Manual.Representar.español.fcbf67b752d193c94794.pdf",
+    "static/media/Manual.Representar.english.pdf": "/static/media/Manual.Representar.english.0f4a98c554c055e63b13.pdf",
     "static/media/1.Diploma.jpg": "/static/media/1.Diploma.5e345fb00cd8f1c958c6.jpg",
     "static/media/3.5.Controlando el Robot.jpg": "/static/media/3.5.Controlando el Robot.e074668aae19c3b2f4b9.jpg",
     "static/media/3.2.1.Pensando el Robot.2.jpg": "/static/media/3.2.1.Pensando el Robot.2.1343bcd9dbd97ae49e61.jpg",
@@ -18,12 +20,12 @@
     "static/media/logo.mecenazgo.negro.png": "/static/media/logo.mecenazgo.negro.235824a58268473359fc.png",
     "static/media/twitter-x-logo.png": "/static/media/twitter-x-logo.242e6fc38b282bde07d1.png",
     "index.html": "/index.html",
-    "main.d0aab760.css.map": "/static/css/main.d0aab760.css.map",
-    "main.d05009f0.js.map": "/static/js/main.d05009f0.js.map",
+    "main.7243bbc2.css.map": "/static/css/main.7243bbc2.css.map",
+    "main.a4c2e953.js.map": "/static/js/main.a4c2e953.js.map",
     "787.dd84d75c.chunk.js.map": "/static/js/787.dd84d75c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0aab760.css",
-    "static/js/main.d05009f0.js"
+    "static/css/main.7243bbc2.css",
+    "static/js/main.a4c2e953.js"
   ]
 }
