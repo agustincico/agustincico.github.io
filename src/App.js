@@ -10,6 +10,7 @@ import NewsBlog from "./NewsBlog";
 import Tutorials from "./Tutorials";
 import ContactUs from "./ContactUs";
 import Playground from "./Playground";
+import Profile from "./Profile";
 
 export default function App() {
   return (
@@ -32,6 +33,8 @@ export default function App() {
               element={<Playground />}
             />
             <Route path="programming-with-drawings" element={<Playground />} />
+            <Route path="agurafamartinez" element={<Profile />} />
+            <Route path="afernandezortuzar" element={<Profile />} />
           </Routes>
         </MessagesProvider>
       </div>
