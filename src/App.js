@@ -35,6 +35,7 @@ export default function App() {
             <Route path="programming-with-drawings" element={<Playground />} />
             <Route path="agurafamartinez" element={<Profile />} />
             <Route path="afernandezortuzar" element={<Profile />} />
+            <Route path="*" element={<Home />} />
           </Routes>
         </MessagesProvider>
       </div>

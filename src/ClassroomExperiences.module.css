@@ -20,15 +20,19 @@
     }
 
     .Subtitle {
-        font-size: 2vw;        
+        font-size: 3vw;        
         width: 80%;
         text-align: left;
     }
 
     .Centered {
-        font-size: 2vw;
-        width: 80%;
         text-align: center;
+    }
+
+    .UnderlinedWithMargins {
+        text-decoration: underline;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
     }
 
     .EmailText {
@@ -49,6 +53,7 @@
         font-size: 3vw;
         text-align: center;
         text-decoration: underline;
+        padding-top: 5vh;
     }
 
     .ContactText {
@@ -88,9 +93,13 @@
     }
 
     .Centered {
-        font-size: 5vw;
-        width: 90%;
         text-align: center;
+    }
+
+    .UnderlinedWithMargins {
+        text-decoration: underline;        
+        margin-top: 2vh;
+        margin-bottom: 1vh;
     }
 
     .EmailText {
@@ -111,6 +120,7 @@
         font-size: 5vw;
         text-align: center;
         text-decoration: underline;
+        padding-top: 5vh;
     }
 
     .ContactText {

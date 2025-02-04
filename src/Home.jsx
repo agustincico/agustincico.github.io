@@ -10,6 +10,8 @@ import { useNavigate } from "react-router-dom";
 import { useMessages } from "./components/MessageContext";
 import englishManual from "./assets/manuals/Manual.Representar.english.pdf";
 import spanishManual from "./assets/manuals/Manual.Representar.español.pdf";
+import agurafamartinez from "./assets/images/profile/agurafamartinez.jpg";
+import afernandezortuzar from "./assets/images/profile/afernandezortuzar.jpg";
 
 function Home() {
   const navigate = useNavigate();
@@ -107,6 +109,47 @@ function Home() {
         >
           {messages.homePage.tecnoLiteraturaButtonLabel}
         </Button>
+      </div>
+      <p className={`Text ${homeStyles.TeamTitle}`}>
+        {messages.homePage.teamTitle}
+      </p>
+      <div className={homeStyles.RowContainer1}>
+        <div
+          className={`Text ${homeStyles.ColumnContainer}`}
+          onClick={() => {
+            navigate("/agurafamartinez");
+          }}
+        >
+          <img
+            src={agurafamartinez}
+            style={{
+              width: "75%",
+              height: "75%",
+              borderRadius: "50%",
+              marginBottom: "1vh",
+            }}
+            alt="Foto de perfil"
+          />
+          {messages.profilePage.agurafamartinez.title}
+        </div>
+        <div
+          className={`Text ${homeStyles.ColumnContainer}`}
+          onClick={() => {
+            navigate("/afernandezortuzar");
+          }}
+        >
+          <img
+            src={afernandezortuzar}
+            style={{
+              scale: "90%",
+              width: "75%",
+              height: "75%",
+              borderRadius: "50%",
+            }}
+            alt="Foto de perfil"
+          />
+          {messages.profilePage.afernandezortuzar.title}
+        </div>
       </div>
       {/* <div className={homeStyles.RowContainer2}>
          <div className="ColumnContainer">

@@ -14,6 +14,7 @@ const translations = {
       inbetweenButtonLabel: "Or",
       manualFileName: "Representar - User Manual.pdf",
       downloadManualButtonLabel: "Download user manual",
+      teamTitle: "Meet the team",
     },
     footer: {
       sponsorsTitle: "This project received support from:",
@@ -41,59 +42,73 @@ const translations = {
       paragraph5:
         "Thank you to all the children who participated. They will always be remembered as the first to try out this new approach to programming.",
     },
-    martinezProfilePage: {
-      title: "Agustín Rafael Martínez",
-      description:
-        "Researcher and lecturer in the Department of Computer Science at the University of Buenos Aires, Agustín specializes in developing new ways of teaching programming and STEM, with a focus on fostering critical thinking in general. In addition to his educational work, he writes articles on philosophy and theory of knowledge, and is also a playwright and theater director. His fascination with the history and diversity of programming languages drives him to create an innovative visual language that is accessible to both children and adults.",
-      presentations: {
-        smalltalks2024: {
-          title:
-            "The Growth of a Project: From a Smalltalk Prototype to a Desktop App (SMALLTALKS 2024)",
-          linkText: "Watch the talk (includes arithmetic demo)",
-          link: "https://www.youtube.com/watch?v=eQT2jGvpluQ",
+    profilePage: {
+      agurafamartinez: {
+        title: "Agustín Rafael Martínez",
+        description:
+          "Researcher and lecturer in the Department of Computer Science at the University of Buenos Aires, Agustín specializes in developing new ways of teaching programming and STEM, with a focus on fostering critical thinking in general. In addition to his educational work, he writes articles on philosophy and theory of knowledge, and is also a playwright and theater director. His fascination with the history and diversity of programming languages drives him to create an innovative visual language that is accessible to both children and adults.",
+        presentations: {
+          title: "Recent Presentations",
+          smalltalks2024: {
+            title:
+              "The Growth of a Project: From a Smalltalk Prototype to a Desktop App (SMALLTALKS 2024)",
+            linkText: "Watch the talk (includes arithmetic demo)",
+            link: "https://www.youtube.com/watch?v=eQT2jGvpluQ",
+          },
+          smalltalks2023: {
+            title:
+              "Testing a New Programming Approach with 11- and 12-Year-Old Children (SMALLTALKS 2023)",
+            linkText: "Watch here (includes video game demo by a child)",
+            link: "https://www.youtube.com/watch?v=dGvG2wCTJK8",
+          },
+          splash2022: {
+            title:
+              "A Language Based on Two Relations Between Symbols (Onward! ACM Splash 2022)",
+            linkText: "Watch here (includes logic demo)",
+            link: "https://www.youtube.com/watch?v=gyYF_qZzp2c",
+          },
         },
-        smalltalks2023: {
-          title:
-            "Testing a New Programming Approach with 11- and 12-Year-Old Children (SMALLTALKS 2023)",
-          linkText: "Watch here (includes video game demo by a child)",
-          link: "https://www.youtube.com/watch?v=dGvG2wCTJK8",
+        publications: {
+          title: "Theoretical Publications in Theory of Knowledge",
+          SymbolicRepresentationAndDialecticalMaterialism: {
+            title:
+              "Martínez, A. (2021). Symbolic Representation and Dialectical Materialism: From Symbolic Communication to Computer Programming. Hic Rhodus. Crisis Capitalista, Polémica y Controversias, vol. 20: 59-78.",
+            linkText: "Read the article in spanish",
+          },
+          IntegrationOfScientificKnowledgeAndDialecticalMaterialism: {
+            title:
+              "Martínez, A. (2020). Integration of Scientific Knowledge and Dialectical Materialism. Hic Rhodus. Crisis Capitalista, Polémica y Controversias, vol. 19: 23-43.",
+            linkText: "Read the article in spanish",
+          },
         },
-        splash2022: {
-          title:
-            "A Language Based on Two Relations Between Symbols (Onward! ACM Splash 2022)",
-          linkText: "Watch here (includes logic demo)",
-          link: "https://www.youtube.com/watch?v=gyYF_qZzp2c",
+        artisticWorks: {
+          title: "Notable Artistic Works",
+          naveCinetica: {
+            title: "Sculpture 'Nave Cinética' (2014)",
+            linkText: "Watch the work",
+            link: "https://www.youtube.com/watch?v=NIGQeYOcPlg",
+          },
+          zuckerfabrik: {
+            title:
+              "'Zuckerfabrik' (2010) – Theater Direction in Berlin, Germany.",
+            linkText: "Click here to see more.",
+            link: "https://zuckerfabrik.blogspot.com/",
+          },
+          rachelCorrie: {
+            title:
+              "'My Name is Rachel Corrie' (2009) – Theater Director, Buenos Aires, Argentina.",
+            linkText: "Click here to see more.",
+            link: "https://rachelcorrieargentina.blogspot.com/",
+          },
         },
       },
-      publications: {
-        SymbolicRepresentationAndDialecticalMaterialism: {
-          text: "Martínez, A. (2021). Symbolic Representation and Dialectical Materialism: From Symbolic Communication to Computer Programming. Hic Rhodus. Crisis Capitalista, Polémica y Controversias, vol. 20: 59-78.",
-          linkText: "Read the article in spanish",
-        },
-        IntegrationOfScientificKnowledgeAndDialecticalMaterialism: {
-          text: "Martínez, A. (2020). Integration of Scientific Knowledge and Dialectical Materialism. Hic Rhodus. Crisis Capitalista, Polémica y Controversias, vol. 19: 23-43.",
-          linkText: "Read the article in spanish",
-        },
-      },
-      artisticWorks: {
-        naveCinetica: {
-          text: "Sculpture 'Nave Cinética' (2014)",
-          linkText: "Watch the work",
-          link: "https://www.youtube.com/watch?v=NIGQeYOcPlg",
-        },
-        zuckerfabrik: {
-          text: "'Zuckerfabrik' (2010) – Theater Direction in Berlin, Germany.",
-          linkText: "Click here to see more.",
-          link: "https://zuckerfabrik.blogspot.com/",
-        },
-        rachelCorrie: {
-          text: "'My Name is Rachel Corrie' (2009) – Theater Director, Buenos Aires, Argentina.",
-          linkText: "Click here to see more.",
-          link: "https://rachelcorrieargentina.blogspot.com/",
-        },
+      afernandezortuzar: {
+        title: "Agustín Fernández Ortuzar",
+        description: "",
       },
     },
   },
+
   es: {
     homePage: {
       title: "Representar",
@@ -110,6 +125,7 @@ const translations = {
       inbetweenButtonLabel: "O",
       manualFileName: "Manual de Usuario - Representar.pdf",
       downloadManualButtonLabel: "Descargar manual de usuario",
+      teamTitle: "Conocé al equipo",
     },
     footer: {
       sponsorsTitle: "Este proyecto recibió apoyo de:",
@@ -136,6 +152,72 @@ const translations = {
         "El taller finalizó con la entrega de diplomas. Fue un aprendizaje tanto para los chicos como para quienes hacemos este proyecto.",
       paragraph5:
         "Gracias a los todos los niños y niñas participantes. Estarán siempre en el recuerdo como los primeros en poner a prueba este nuevo enfoque de la programación.",
+    },
+    profilePage: {
+      agurafamartinez: {
+        title: "Agustín Rafael Martínez",
+        description:
+          "Investigador y docente en el Departamento de Computación de la Universidad de Buenos Aires, Agustín se dedica a explorar nuevas formas de enseñanza de la programación y STEM, con un enfoque en fomentar el pensamiento crítico en general. Además de su labor educativa, escribe artículos sobre filosofía y teoría del conocimiento, y es dramaturgo y director de teatro. Su fascinación por la historia y la diversidad de los lenguajes de programación lo impulsa a crear un lenguaje visual innovador, accesible tanto para niños como para adultos.",
+        presentations: {
+          title: "Presentaciones Recientes",
+          smalltalks2024: {
+            title:
+              "The Growth of a Project: From a Smalltalk Prototype to a Desktop App (SMALLTALKS 2024)",
+            linkText: "Ver la charla (incluye demostración aritmética)",
+            link: "https://www.youtube.com/watch?v=eQT2jGvpluQ",
+          },
+          smalltalks2023: {
+            title:
+              "Testing a New Programming Approach with 11- and 12-Year-Old Children (SMALLTALKS 2023)",
+            linkText:
+              "Ver aquí (incluye demostración de videojuego realizada por un niño)",
+            link: "https://www.youtube.com/watch?v=dGvG2wCTJK8",
+          },
+          splash2022: {
+            title:
+              "A Language Based on Two Relations Between Symbols (Onward! ACM Splash 2022)",
+            linkText: "Ver aquí (incluye demostración lógica)",
+            link: "https://www.youtube.com/watch?v=gyYF_qZzp2c",
+          },
+        },
+        publications: {
+          title: "Publicaciones teóricas en Teoría del Conocimiento",
+          SymbolicRepresentationAndDialecticalMaterialism: {
+            title:
+              "Martínez, A. (2021). Representación simbólica y materialismo dialéctico: De la comunicación simbólica a la programación de computadoras. Hic Rhodus. Crisis Capitalista, Polémica y Controversias, vol. 20: 59-78.",
+            linkText: "Leer artículo",
+          },
+          IntegrationOfScientificKnowledgeAndDialecticalMaterialism: {
+            title:
+              "Martínez, A. (2020). Integración del conocimiento científico y materialismo dialéctico. Hic Rhodus. Crisis Capitalista, Polémica y Controversias, vol. 19: 23-43.",
+            linkText: "Leer artículo",
+          },
+        },
+        artisticWorks: {
+          title: "Trabajos artísticos relevantes",
+          naveCinetica: {
+            title: "Escultura 'Nave Cinética' (2014)",
+            linkText: "Ver Obra",
+            link: "https://www.youtube.com/watch?v=NIGQeYOcPlg",
+          },
+          zuckerfabrik: {
+            title:
+              "'Zuckerfabrik' (2010) – Dirección de obra de teatro en Berlín, Alemania.",
+            linkText: "Ver más",
+            link: "https://zuckerfabrik.blogspot.com/",
+          },
+          rachelCorrie: {
+            title:
+              "Mi nombre es Rachel Corrie' (2009) – Director de obra de teatro, Buenos Aires, Argentina.",
+            linkText: "Ver más",
+            link: "https://rachelcorrieargentina.blogspot.com/",
+          },
+        },
+      },
+      afernandezortuzar: {
+        title: "Agustín Fernández Ortuzar",
+        description: "",
+      },
     },
   },
 };
