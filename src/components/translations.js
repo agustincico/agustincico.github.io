@@ -106,7 +106,7 @@ const translations = {
       afernandezortuzar: {
         title: "Agustín Fernández Ortuzar",
         description:
-          "Student and teacher of the Bachelor's Degree in Computer Science at the University of Buenos Aires, holder of a research initiation scholarship during which he proposed to study ways to bring Representar to the classroom and compare its effectiveness against other tools used for teaching programming. He is currently working on his undergraduate thesis, in which he investigates the existing methods of evaluating programming knowledge independently of the tool or language used to learn, with the hope of contributing new evaluation methods and ways to validate them. Passionate about the idea of teaching and learning through video games, he could not resist the opportunity to collaborate in the development of Representar.",
+          "Student and teacher of the Master's Degree in Computer Science at the University of Buenos Aires, holder of a research initiation scholarship during which he proposed to study ways to bring Representar to the classroom and compare its effectiveness against other tools used for teaching programming. He is currently working on his undergraduate thesis, in which he investigates the existing methods of evaluating programming knowledge independently of the tool or language used to learn, with the hope of contributing new evaluation methods and ways to validate them. Passionate about the idea of teaching and learning through video games, he could not resist the opportunity to collaborate in the development of Representar.",
       },
     },
   },
