@@ -50,7 +50,11 @@ function Profile() {
         >
           <img
             src={isAguRafaMartinez ? agurafamartinez : afernandezortuzar}
-            style={{ width: "25%", height: "25%", borderRadius: "50%" }}
+            style={{
+              width: isAguRafaMartinez ? "25%" : "21%",
+              height: isAguRafaMartinez ? "25%" : "21%",
+              borderRadius: "50%",
+            }}
             alt="Foto de perfil"
           />
         </div>
@@ -65,6 +69,7 @@ function Profile() {
         >
           <div
             className={`Text ${CEStyles.Subtitle} ${CEStyles.Centered} ${CEStyles.UnderlinedWithMargins}`}
+            style={{ marginTop: "2vh", marginBottom: "5vh" }}
           >
             {isAguRafaMartinez
               ? messages.profilePage.agurafamartinez.title
@@ -73,7 +78,7 @@ function Profile() {
           <div className={`Text ${CEStyles.Description} ${CEStyles.Centered}`}>
             {isAguRafaMartinez
               ? messages.profilePage.agurafamartinez.description
-              : messages.profilePage.afernandezortuzar.descrption}
+              : messages.profilePage.afernandezortuzar.description}
           </div>
           {isAguRafaMartinez ? (
             <>

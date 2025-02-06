@@ -9,7 +9,8 @@ const translations = {
       drawingsProgrammingExampleButtonLabel:
         "Try out online version with an example",
       downloadButtonLabel: "Download the full version",
-      downloadButtonEpigraph: "(includes many examples)",
+      downloadButtonEpigraph:
+        "(includes many examples and an introductory manual)",
       classroomExperiencesButtonLabel: "Learn about our classroom experience",
       inbetweenButtonLabel: "Or",
       manualFileName: "Representar - User Manual.pdf",
@@ -104,7 +105,8 @@ const translations = {
       },
       afernandezortuzar: {
         title: "Agustín Fernández Ortuzar",
-        description: "",
+        description:
+          "Student and teacher of the Bachelor's Degree in Computer Science at the University of Buenos Aires, holder of a research initiation scholarship during which he proposed to study ways to bring Representar to the classroom and compare its effectiveness against other tools used for teaching programming. He is currently working on his undergraduate thesis, in which he investigates the existing methods of evaluating programming knowledge independently of the tool or language used to learn, with the hope of contributing new evaluation methods and ways to validate them. Passionate about the idea of teaching and learning through video games, he could not resist the opportunity to collaborate in the development of Representar.",
       },
     },
   },
@@ -119,7 +121,8 @@ const translations = {
       drawingsProgrammingExampleButtonLabel:
         "Probar versión online con ejemplo",
       downloadButtonLabel: "Descargar la versión completa",
-      downloadButtonEpigraph: "(incluye muchos ejemplos)",
+      downloadButtonEpigraph:
+        "(incluye muchos ejemplos y un manual introductorio)",
       classroomExperiencesButtonLabel:
         "Conocé sobre nuestra experiencia en el aula",
       inbetweenButtonLabel: "O",
@@ -216,7 +219,8 @@ const translations = {
       },
       afernandezortuzar: {
         title: "Agustín Fernández Ortuzar",
-        description: "",
+        description:
+          "Estudiante y docente de la Licenciatura en Ciencias de la Computación en la Universidad de Buenos Aires, poseedor de una beca de iniciación a la investigación durante la que se propuso estudiar formas de llevar Representar a las aulas y comparar su efectividad contra la de otras herramientas utilizadas para enseñar a programar. Actualmente se encuentra trabajando en su tesis de licenciatura, en la que investiga los métodos existentes de evaluación de los conocimientos de la programación independientemente de la herramienta o lenguaje utilizado para aprender, con la esperanza de aportar nuevos métodos de evaluación y formas de validarlos. Apasionado por la idea de enseññar y aprender por medio de videojuegos, no pudo resistirse a la oportunidad de colaborar en el desarrollo de Representar.",
       },
     },
   },

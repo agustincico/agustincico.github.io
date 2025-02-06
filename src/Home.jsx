@@ -8,28 +8,36 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { useNavigate } from "react-router-dom";
 import { useMessages } from "./components/MessageContext";
-import englishManual from "./assets/manuals/Manual.Representar.english.pdf";
-import spanishManual from "./assets/manuals/Manual.Representar.español.pdf";
+// import englishManual from "./assets/manuals/Manual.Representar.english.pdf";
+// import spanishManual from "./assets/manuals/Manual.Representar.español.pdf";
 import agurafamartinez from "./assets/images/profile/agurafamartinez.jpg";
 import afernandezortuzar from "./assets/images/profile/afernandezortuzar.jpg";
 
 function Home() {
   const navigate = useNavigate();
   const { messages, locale } = useMessages();
-  const imageTecnoLiteraturaPath =
-    "public/imagenSmalltalk&files=[Tecnoliteratura.image]&forceDownload=true";
+  // const imageTecnoLiteraturaPath =
+  // "public/imagenSmalltalk&files=[Tecnoliteratura.image]&forceDownload=true";
   const imageDibujosWithExamplePath =
     "public/imagenSmalltalk/online&files=[RepresentarOnline" +
     (locale === "es" ? "" : ".EN") +
     ".image,KingFrogSample/projectToLoad.represent.ar]&forceDownload=true";
-  const imageDibujosEmptyPath =
-    "public/imagenSmalltalk/online&files=[RepresentarOnline" +
-    (locale === "es" ? "" : ".EN") +
-    ".image,EmptySample/projectToLoad.represent.ar]&forceDownload=true";
+  // const imageDibujosEmptyPath =
+  //   "public/imagenSmalltalk/online&files=[RepresentarOnline" +
+  //   (locale === "es" ? "" : ".EN") +
+  //   ".image,EmptySample/projectToLoad.represent.ar]&forceDownload=true";
 
   return (
-    <>
-      <Header></Header>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "space-between",
+        minHeight: "100vh",
+      }}
+    >
+      <Header />
       <div className={homeStyles.TitleContainer}>
         <div className={`Text ${homeStyles.MainTitle}`}>
           {messages.homePage.title}
@@ -55,7 +63,7 @@ function Home() {
         {messages.homePage.downloadButtonEpigraph}
       </div>
       <div className={homeStyles.RowContainer1}>
-        <Button
+        {/* <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.LeftMostButton} ${homeStyles.DownloadManualButton}`}
           onClick={() => {
             const link = document.createElement("a");
@@ -65,6 +73,16 @@ function Home() {
           }}
         >
           {messages.homePage.downloadManualButtonLabel}
+        </Button> */}
+        <Button
+          className={`Text ${homeStyles.CartonButton} ${homeStyles.LeftMostButton} ${homeStyles.TryOnlineButton}`}
+          onClick={() => {
+            navigate("/programming-with-drawings-example", {
+              state: { image: imageDibujosWithExamplePath },
+            });
+          }}
+        >
+          {messages.homePage.drawingsProgrammingExampleButtonLabel}
         </Button>
         <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.RightMostButton} ${homeStyles.ClassroomExperiencesButton}`}
@@ -75,7 +93,7 @@ function Home() {
           {messages.homePage.classroomExperiencesButtonLabel}
         </Button>
       </div>
-      <div className={homeStyles.RowContainer1}>
+      {/* <div className={homeStyles.RowContainer1}>
         <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.LeftMostButton} ${homeStyles.TryOnlineButton}`}
           onClick={() => {
@@ -86,19 +104,9 @@ function Home() {
         >
           {messages.homePage.drawingsProgrammingButtonLabel}
         </Button>
-
-        <Button
-          className={`Text ${homeStyles.CartonButton} ${homeStyles.RightMostButton} ${homeStyles.TryOnlineButton}`}
-          onClick={() => {
-            navigate("/programming-with-drawings-example", {
-              state: { image: imageDibujosWithExamplePath },
-            });
-          }}
-        >
-          {messages.homePage.drawingsProgrammingExampleButtonLabel}
-        </Button>
-      </div>
-      <div className={homeStyles.RowContainer2}>
+      
+      </div> */}
+      {/* <div className={homeStyles.RowContainer2}>
         <Button
           className={`Text ${homeStyles.CartonButton} ${homeStyles.TecnoLiteraturaButton}`}
           onClick={() => {
@@ -109,100 +117,55 @@ function Home() {
         >
           {messages.homePage.tecnoLiteraturaButtonLabel}
         </Button>
-      </div>
-      <p className={`Text ${homeStyles.TeamTitle}`}>
-        {messages.homePage.teamTitle}
-      </p>
-      <div className={homeStyles.RowContainer1}>
-        <div
-          className={`Text ${homeStyles.ColumnContainer}`}
-          onClick={() => {
-            navigate("/agurafamartinez");
-          }}
-        >
-          <img
-            src={agurafamartinez}
-            style={{
-              width: "75%",
-              height: "75%",
-              borderRadius: "50%",
-              marginBottom: "1vh",
-            }}
-            alt="Foto de perfil"
-          />
-          {messages.profilePage.agurafamartinez.title}
-        </div>
-        <div
-          className={`Text ${homeStyles.ColumnContainer}`}
-          onClick={() => {
-            navigate("/afernandezortuzar");
-          }}
-        >
-          <img
-            src={afernandezortuzar}
-            style={{
-              scale: "90%",
-              width: "75%",
-              height: "75%",
-              borderRadius: "50%",
-            }}
-            alt="Foto de perfil"
-          />
-          {messages.profilePage.afernandezortuzar.title}
-        </div>
-      </div>
-      {/* <div className={homeStyles.RowContainer2}>
-         <div className="ColumnContainer">
-          <Button
-            className="Text CartonButton TinyButton"
-            onClick={() => {
-              navigate("/about");
-            }}
-            style={{
-              backgroundColor: `rgba(0, 200, 0, 0.7)`,
-            }}
-          >
-            Sobre el proyecto
-          </Button>
-          <Button
-            className="Text CartonButton TinyButton"
-            onClick={() => {
-              navigate("/contact-us");
-            }}
-            style={{
-              backgroundColor: `rgba(255, 0, 200, 0.7)`,
-            }}
-          >
-            Hablá con nosotros
-          </Button>
-        </div>
-        <div className="ColumnContainer">
-          <Button
-            className="Text CartonButton TinyButton"
-            onClick={() => {
-              navigate("/news-blog");
-            }}
-            style={{
-              backgroundColor: `rgba(100, 0, 255, 0.7)`,
-            }}
-          >
-            Blog de Novedades
-          </Button>
-          <Button
-            className="Text CartonButton TinyButton"
-            onClick={() => {
-              navigate("/tutorials");
-            }}
-            style={{
-              backgroundColor: `rgba(200, 0, 0, 0.7)`,
-            }}
-          >
-            Videotutoriales
-          </Button>
-        </div> 
       </div> */}
-      <Footer></Footer>
-    </>
+      <div className={`${homeStyles.ColumnContainer}`}>
+        <div className={`Text ${homeStyles.TeamTitle}`}>
+          {messages.homePage.teamTitle}
+        </div>
+        <div className={homeStyles.RowContainer3}>
+          <div
+            className={`Text ${homeStyles.ColumnContainer}`}
+            onClick={() => {
+              navigate("/agurafamartinez");
+              window.scrollTo(0, 0);
+            }}
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={agurafamartinez}
+              style={{
+                width: "75%",
+                height: "75%",
+                borderRadius: "75%",
+                marginBottom: "1vh",
+              }}
+              alt="Foto de perfil"
+            />
+            {messages.profilePage.agurafamartinez.title}
+          </div>
+          <div
+            className={`Text ${homeStyles.ColumnContainer}`}
+            onClick={() => {
+              navigate("/afernandezortuzar");
+              window.scrollTo(0, 0);
+            }}
+            style={{ cursor: "pointer" }}
+          >
+            <img
+              src={afernandezortuzar}
+              style={{
+                width: "67%",
+                height: "67%",
+                borderRadius: "50%",
+              }}
+              alt="Foto de perfil"
+            />
+            {messages.profilePage.afernandezortuzar.title}
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
   );
 }
 

@@ -10,10 +10,17 @@ import { Link } from "react-router-dom";
 export default function Footer(props) {
   const { messages } = useMessages();
   return (
-    <div>
-      <p className={`Text ${CEStyles.ContactTitle}`}>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "space-around",
+      }}
+    >
+      <div className={`Text ${CEStyles.ContactTitle}`}>
         {messages.footer.contactTitle}
-      </p>
+      </div>
       <div style={{ display: "flex", justifyContent: "space-around" }}>
         <Link
           to="https://www.instagram.com/agurafamartinez/"
