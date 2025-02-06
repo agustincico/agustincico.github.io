@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.7243bbc2.css",
-    "main.js": "/static/js/main.a4c2e953.js",
+    "main.css": "/static/css/main.5156285c.css",
+    "main.js": "/static/js/main.e71de732.js",
     "static/js/787.dd84d75c.chunk.js": "/static/js/787.dd84d75c.chunk.js",
     "static/media/Paper.A.Language.Preprint.pdf": "/static/media/Paper.A.Language.Preprint.44af5c7086dd87e65d35.pdf",
-    "static/media/Manual.Representar.español.pdf": "/static/media/Manual.Representar.español.fcbf67b752d193c94794.pdf",
-    "static/media/Manual.Representar.english.pdf": "/static/media/Manual.Representar.english.0f4a98c554c055e63b13.pdf",
     "static/media/1.Diploma.jpg": "/static/media/1.Diploma.5e345fb00cd8f1c958c6.jpg",
     "static/media/3.5.Controlando el Robot.jpg": "/static/media/3.5.Controlando el Robot.e074668aae19c3b2f4b9.jpg",
     "static/media/3.2.1.Pensando el Robot.2.jpg": "/static/media/3.2.1.Pensando el Robot.2.1343bcd9dbd97ae49e61.jpg",
@@ -15,17 +13,19 @@
     "static/media/Representacion-simbolica-y-materialismo-dialectico.pdf": "/static/media/Representacion-simbolica-y-materialismo-dialectico.0ebf334180453194f82e.pdf",
     "static/media/Integración_del_conocimiento_cientifico_y_materialismo_dialectico.pdf": "/static/media/Integración_del_conocimiento_cientifico_y_materialismo_dialectico.2399cbf208f3d4edf6a7.pdf",
     "static/media/pastel_crayon.ttf": "/static/media/pastel_crayon.f9672ff268069c546a19.ttf",
+    "static/media/agurafamartinez.jpg": "/static/media/agurafamartinez.203d990a6a41914c4685.jpg",
+    "static/media/afernandezortuzar.jpg": "/static/media/afernandezortuzar.38d3e4225e42d3c54550.jpg",
     "static/media/instagram-logo-with-text.png": "/static/media/instagram-logo-with-text.6f9f9a4440e9f8842aa0.png",
     "static/media/fondo-textura-carton-blanca.jpg": "/static/media/fondo-textura-carton-blanca.9d1922477125c146435d.jpg",
     "static/media/logo.mecenazgo.negro.png": "/static/media/logo.mecenazgo.negro.235824a58268473359fc.png",
     "static/media/twitter-x-logo.png": "/static/media/twitter-x-logo.242e6fc38b282bde07d1.png",
     "index.html": "/index.html",
-    "main.7243bbc2.css.map": "/static/css/main.7243bbc2.css.map",
-    "main.a4c2e953.js.map": "/static/js/main.a4c2e953.js.map",
+    "main.5156285c.css.map": "/static/css/main.5156285c.css.map",
+    "main.e71de732.js.map": "/static/js/main.e71de732.js.map",
     "787.dd84d75c.chunk.js.map": "/static/js/787.dd84d75c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7243bbc2.css",
-    "static/js/main.a4c2e953.js"
+    "static/css/main.5156285c.css",
+    "static/js/main.e71de732.js"
   ]
 }
